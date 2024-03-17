@@ -31,6 +31,6 @@ print(array)
 left = int(array[0])
 right = int(array[-1])
 if element < left or element > right:
-    print('Число отсутствует в списке! Введите любое целое число из введеного списка: ')
+    print('Число не входит в диапазон списка! Введите любое целое число из введеного списка: ')
 else:
     print(binary_search(array, element, 0, len(array) - 1))
